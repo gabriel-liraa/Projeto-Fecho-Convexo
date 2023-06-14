@@ -17,13 +17,13 @@ Linguagem de programação: C++
 
 
 2.2 Estruturas de dados e classes:
+
 	Par:
 	Guarda 2 valores de tipo especificados na hora da criação do objeto. (Template class)
-		
-	Ponto:
-Guarda um objeto Par, que, nesse caso, armazena dois inteiros, representando as coordenadas X e Y.
-		
 	
+	Ponto:
+	Guarda um objeto Par, que, nesse caso, armazena dois inteiros, representando as coordenadas X e Y.
+		
 	Reta:
 	Guarda um objeto par, que, nesse caso, armazena dois Pontos, representando as extremidades da reta.
 
@@ -45,13 +45,13 @@ O(nh)
 
 	
 
-grahamScan(Fecho* fecho, Lista<Ponto*>* lista, int option)
+	grahamScan(Fecho* fecho, Lista<Ponto*>* lista, int option)
 		Obs: “option” seleciona qual algoritmo de ordenação será usado, 0->Merge Sort, 1->Insertion Sort e 2->Radix Sort.
 		Considerando “n”, o número de pontos no total, e que para o funcionamento do algoritmo de Graham precisamos: encontrar o pontos mais abaixo, ordenar a lista de pontos e por fim construir o fecho, temos que sua complexidade se apresenta por:
 		
 	O(n) (encontrar ponto de menor Y) + 
-[O(n logn) (Merge Sort) ou, O(n²) (Insertion Sort) ou, O(d * (n + b)) (Radix Sort)] + 
-O(n) (montar o fecho)
+	[O(n logn) (Merge Sort) ou, O(n²) (Insertion Sort) ou, O(d * (n + b)) (Radix Sort)] + 
+	O(n) (montar o fecho)
 	
 	Obs: No caso do Merge Sort, a complexidade considerada foi a de caso médio, e, no Radix Sort, considere “d” como o número máximo de dígitos a serem analisados e “b” como a base numérica dos números, no caso 10.
 	Dado o contexto acima, o Scan de Graham varia de:
@@ -89,7 +89,7 @@ dados. Disponibilizado via moodle. Departamento de Ciência da Computação. Uni
 Federal de Minas Gerais. Belo Horizonte.
 
 	Padrão de formatação para clang-format utilizado no Google:
-https://github.com/kehanXue/google-style-clang-format
+	https://github.com/kehanXue/google-style-clang-format
 
 Instruções para compilação e execução:
 	Abra o terminal na pasta principal do trabalho, em que se encontra um arquivo makefile, em seguida execute o seguinte padrão de comando:
