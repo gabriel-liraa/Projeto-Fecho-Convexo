@@ -40,8 +40,7 @@ Linguagem de programação: C++
 	As funções principais do projeto são as que compõem as tarefas dos algoritmos de Jarvis March e Scan de Graham, em todas suas variações:
 	
 	jarvisMarch(Fecho* fecho, Lista<Ponto*>* lista_input):
-		Considerando “n”, o número de pontos no total, e “h’ o número de pontos atribuídos ao fecho, a complexidade dessa função se apresenta como:
-O(nh)
+		Considerando “n”, o número de pontos no total, e “h’ o número de pontos atribuídos ao fecho, a complexidade dessa função se apresenta como O(nh)
 
 	
 
